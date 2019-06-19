@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.haerul.foodsapp">
+    package="com.imtiaz.foodsapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".view.home.HomeActivity"
+            android:name="com.imtiaz.foodsapp.view.home.HomeActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,13 +22,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.category.CategoryActivity"
+            android:name="com.imtiaz.foodsapp.view.category.CategoryActivity"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait"
             android:label="Category"/>
         <!--TODO #1 Add DetailActivity -->
         <activity
-            android:name=".view.detail.DetailActivity"
+            android:name="com.imtiaz.foodsapp.view.detail.DetailActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
